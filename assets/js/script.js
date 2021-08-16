@@ -81,7 +81,7 @@
         var progress = valueLength/maxLength*100;
         let bar = progressBar.style;
         progressBar.setAttribute('value', valueLength);
-        bar.width = ((valueLength/maxLength)**100 ) + "%"
+        bar.width = ((valueLength/maxLength)*100 ) + "%"
        
         if (progress <= 25 ) {
 
