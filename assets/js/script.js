@@ -38,7 +38,7 @@
     
     
     var compteur = document.getElementById('compteur');
-    var maxLength = 20;
+    var maxLength = 100;
     compteur.innerHTML=maxLength;
     var progressBar = document.getElementById ('progressBar');
     // progressBar.setAttribute('max',maxLength);
@@ -114,12 +114,6 @@
 
 
 
-
-
-
-
-
-
     
     // addEventListener('click', () => {
     //     area.innerHTML =+ '<p></p>';
@@ -155,7 +149,7 @@
     //     var d = document;
     //     var q = "querySelector";
     //     var iframe = d[q]("iframe");               
-    //     var area = document.querySelectorAll('textarea');  //Dans le document css je selectionne  l'element textarea
+    //     var area = document.querySelectorAll('textarea');  //Dans le document je selectionne  l'element textarea
     //     for (var i = area.length - 1; i >= 0 ; i--)
     //     {
     //        if(area[i].addEventListener)
